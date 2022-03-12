@@ -3,7 +3,7 @@
 }
 
 @model HairSalon.Models.Client
-
+<div class="box">
 <h2>Are you sure you want to remove this client?</h2>
 
 @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
@@ -11,4 +11,5 @@
 {
   <input type="submit" value="Delete"/>
 }
+</div>
 @Html.ActionLink("Back to Client List", "Index")

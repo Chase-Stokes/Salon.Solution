@@ -1,4 +1,42 @@
 div.header {
   text-align: center;
-  background-color: blanchedalmond;
+  background-color: lightgrey;
+  padding: 3%;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px solid black;
+}
+
+body {
+  background-image: url(https://cdn2.vectorstock.com/i/1000x1000/44/11/hair-salon-background-07-vector-28144411.jpg)
+}
+
+.about {
+  border: 1px solid black;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 5%;
+  background-color: lightgrey;
+}
+
+.box {
+  border: 1px solid black;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 5%;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+p{
+  text-align: center;
 }
